@@ -2,10 +2,13 @@ import styled from "styled-components";
 
 export const FooterMainWrapper=styled.footer`
 border: none;
-border-top:3px solid gray;
+border-top:2px solid gray;
 width: 100%;
 `
 export const FooterWrapper=styled.div`
+margin-top:40px;
+margin-bottom:40px;
+
 width: 100%;
 display: flex;
 flex-direction: row;
@@ -32,6 +35,8 @@ flex-wrap: nowrap;
 `
 export const CopywriteInfo=styled.div`
 height: 60px;
+font-family: 'Outfit', sans-serif;
+font-weight:500;
 width: 100%;
 text-align: center;
 line-height: 60px;
@@ -67,9 +72,14 @@ position: relative;
 
 `
 export const TableRow=styled.tr`
+font-weight:500;
+font-family: 'Outfit', sans-serif;
+
 
 `
 export const TableHead=styled.th`
+font-family: 'Outfit', sans-serif;
+font-weight:500;
 font-size: 25px;
 padding:32px;
 @media (max-width:375px) {
@@ -78,6 +88,7 @@ padding:32px;
 }
 `
 export const TableData=styled.td`
+font-family: 'Outfit', sans-serif;
 text-align: center;
 font-size: 22px;
 padding: 5px 12px 5px 12px;
@@ -109,11 +120,13 @@ width: 350px;
 text-align: center;
 line-height: 70px;
 font-size: 20px;
+font-family: 'Outfit', sans-serif;
 @media (max-width:375px){
   font-size: 15px;
 }
 `
 export const InternalBlock2=styled.div`
+font-family: 'Outfit', sans-serif;
 width: 350px;
 text-align: center;
 line-height: 70px;

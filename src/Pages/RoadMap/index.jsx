@@ -6,9 +6,12 @@ const RoadMapPage=()=>{
     return(
         <>
         <RoadMapMainWrapper>
+        <RoadMapItemBoxZero></RoadMapItemBoxZero>
+
             <RoadMapWrapper>
                 <RoadMapItemBoxOne>
                 <RoadMapItemTitleBox>
+                
                     <RoadMapTitle>Road Map</RoadMapTitle>
                     <RoadMapParaOne>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</RoadMapParaOne>
                 </RoadMapItemTitleBox>

@@ -51,20 +51,28 @@ export const DivtextContainer1=styled.div`
   background-color: rgba(250,246,248, 0.1); 
 position:absolute ;
 padding: 0px 5px 0px 5px;
-margin-top:-510px;
-margin-left:120px;
+margin-top:-500px;
+margin-left:100px;
 border-radius: 50px;
-width: 250px;
-height: 90px;
+max-width: 250px;
+max-height: 90px;
+width: 100%;
+height: 100%;
 @media(max-width: 1068px){
 }
 @media (max-width:768px){
-    display: none;
-
-
+    margin-top:-360px;
+margin-left:30px;
+    max-width: 220px;
+max-height: 80px;
+padding: 0;
 }
 @media (max-width:375px){
-display: none;
+    margin-top:-230px;
+margin-left:20px;
+    max-width: 130px;
+max-height: 50px;
+padding: 0;
 }
 `
 export const DivtextContainer2=styled.div`
@@ -72,20 +80,32 @@ export const DivtextContainer2=styled.div`
 top:-600px;
 display: block;
 position: relative;
-width: 250px;
+width: 100%;
+height: 100%;
+max-width: 250px;
 float: right;
 right:80px;
 color: white;
 border-radius: 50px;
-height: 90px;
+max-height: 90px;
 @media(max-width:1068px){
    
 }
 
 @media (max-width:768px){
-    display: none;
+    top:-440px;
+    right: 40px;
+    max-width: 220px;
+max-height: 80px;
+padding: 0;
 
-
+}
+@media (max-width:375px){
+    top: -275px;
+    right:20px ;
+    max-width: 130px;
+max-height: 50px;
+padding:0;
 }
 
 
@@ -94,19 +114,29 @@ export const DivtextContainer3=styled.div`
 background-color: rgba(250,246,248, 0.1); 
 position:relative ;
 padding: 0.1px 5px 0px 5px;
-
-width: 250px;
+width: 100%;
+height: 100%;
+max-width: 250px;
 left: 150px;
 display: block;
 top: -280px;
-
 border-radius: 50px;
-height: 90px;
+max-height: 90px;
 @media(max-width: 1068px){
 }
 @media (max-width:768px){
-    display: none;
-
+    top:-220px;
+    left:60px ;
+    max-width: 220px;
+max-height: 80px;
+padding: 0;
+}
+@media (max-width:375px){
+    margin-top:90px;
+margin-left:-20px;
+    max-width: 130px;
+max-height: 50px;
+padding:1px;
 }
 `
 export const DivtextContainer4=styled.div`
@@ -117,28 +147,46 @@ top:-420px;
 float: right;
 right: 130px;
 padding: 0px 5px 0px 5px;
-width:200px;
+width: 100%;
+height: 100%;
+max-width:200px;
 border-radius: 50px;
-height: 90px;
-
+max-height: 90px;
 @media(max-width: 1068px){
 }
 @media (max-width:768px){
-    margin-left: 0px;
-    display: none;
+
+    top:-340px;
+    right: 80px;
+    max-width:170px;
+max-height: 80px;
+padding: 0px;
+}
+@media (max-width:375px){
+    margin-top:50px;
+    right: 32px;
+    max-width: 100px;
+max-height: 50px;
+padding: 0;
 }
 `
 export const SectionItemContainer2=styled.div`
 width: 100%;
+height: 100%;
 max-width: 980px;
 max-height: 750px;
+font-weight:500;
+font-family: 'Outfit', sans-serif;
 @media(max-width:1068px){
-
-    width:100%;
 }
 @media(max-width:768px){
+    margin-top: 20px;
+    font-size: 10px;
+    font-weight: 100;
+    max-height:550px;
 }
 @media(max-width: 375px){
+    max-height: 330px;
 }
 `
 export const DivtextContainer=styled.div`
@@ -154,15 +202,23 @@ background-color:transparent;
 
 `
 export const TitleHead=styled.h1`
+width: 100%;
+max-width:580px;
 font-size: 78px;
 display: block;
 position: relative;
-font-family: sans-serif;
+font-family: 'Outfit', sans-serif;
 @media (max-width:1068px){
     margin-top: 50px;
+    margin-left: 180px;
     text-align: center;
 }
+@media(max-width:768px){
+ margin-left:50px;
+}
 @media(max-width: 375px){
+    margin-top:0px;
+    margin-left:0px;
     font-size: 35px;
 }
 
@@ -171,11 +227,12 @@ export const ParaHead=styled.p`
 height: 100px;
 width: 100%;
 display: block;
-max-width: 550px;
+max-width: 580px;
 position: relative;
 font-size: 21px;
 margin-top:35px;
-font-family: sans-serif;
+font-weight:400;
+font-family: 'Outfit', sans-serif;
 @media (max-width:1068px){
     margin-top: 50px;
     margin-left: 180px;
@@ -189,9 +246,11 @@ font-family: sans-serif;
 }
 @media(max-width: 375px){
     margin-top: 10px;
-    font-size:15px;
+    margin-left: 35px;
+
+    max-width:300px;
+    font-size:10px;
     height: auto;
-    display: none;
 }
 
 `
@@ -249,23 +308,32 @@ export const SearchBarInnerContainer1={
 }
 export const MoneyDiv=styled.div`
 position: absolute;
-width: 280px;
-height: 280px;
-display: block;
-margin-left: 400px;
+height: 100%;
+width: 100%;
+max-width: 280px;
+max-height: 280px;
 bottom: 100px;
+margin-left: 400px;
 @media(max-width:1068px){
-    bottom: -220px;
-    margin-left: 350px;
+    top: 0;
+    bottom: 0;
+    margin-left: 355px;
+    margin-top:465px;
+    transform:translateY(570px);
 }
 @media(max-width:768px){
-    bottom: -30px;
+    top: 0;
+    bottom: 0;
     margin-left: 260px;
-    width: 200px;
-height: 200px;
+    margin-top:365px;
+    max-width: 200px;
+max-height: 200px;
 }
 @media(max-width:375px){
-    display: none;
+    margin-left: 160px;
+    margin-top: -90px;
+    max-width: 100px;
+    height:100px;
 }
 `
 export const Moneylog=styled.img`
@@ -274,6 +342,10 @@ export const Moneylog=styled.img`
   @media(max-width:768px){
     width: 200px;
 height: 200px;
+}
+@media(max-width:375px){
+    width: 100px;
+height: 100px;
 }
     `
 
@@ -288,7 +360,6 @@ height: 100%;
     
 }
 @media (max-width:768px){
-
 }
 @media(max-width: 375px){
 }
@@ -312,7 +383,7 @@ position: relative;
 left: 36px;
 top: 5px;
 border-radius:50px;
-background-color:blue;
+background:linear-gradient(180deg, #107BEE 0%, #359DFD 100%);
 
 `
 export const SectionParaTwo=styled.p`
@@ -322,5 +393,12 @@ font-weight: bold;
 display: block;
 text-align: center;
 line-height: 35px;
+@media (max-width:768px){
+    font-size: 15px;
+}
+@media (max-width:375px){
+    line-height: 15px;
+    font-size: 10px;
+}
 
 `

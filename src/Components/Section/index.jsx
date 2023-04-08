@@ -27,12 +27,12 @@ const Slider=()=>{
     </SearchContainer>
 </SectionItemContainer>
 <SectionItemContainer2><GorilaMov  src={Images.gorillaLogo} alt="" />
-<MoneyDiv><Moneylog src={Images.moneylogo} alt=""/></MoneyDiv>
 <DivtextContainer1><SectionParaTwo>Automate payments for quick transparent cashout?</SectionParaTwo></DivtextContainer1>
 <DivtextContainer2><SectionParaTwo>You mean,i can track my scholars'performance</SectionParaTwo></DivtextContainer2>
 <DivtextContainer3><SectionParaTwo>All on one platform that doesn't lag?You're Kidding</SectionParaTwo></DivtextContainer3>
 <DivtextContainer4><SectionParaTwo>Search and Breed Axies and NFTs</SectionParaTwo></DivtextContainer4>
 
+<MoneyDiv><Moneylog src={Images.moneylogo} alt=""/></MoneyDiv>
 
 </SectionItemContainer2>
 

@@ -4,6 +4,7 @@ export const RoadMapMainWrapper=styled.section`
 display: flex;
 justify-content: center;
 width: 100%;
+margin-top:80px;
 
 `
 export const RoadMapWrapper=styled.div`
@@ -13,7 +14,6 @@ max-width:1358px;
 @media (max-width:1068px){
         width: 100%;
         max-width: 780px;
-
 }
 @media (max-width:768px) {
     max-width: 500px;
@@ -24,9 +24,22 @@ max-width:1358px;
 
 `
 export const RoadMapItemBoxZero=styled.div`
-
+border: 2px solid gray;
+width:300px;
+margin-left:-250px;
+height: 200px;
+position: relative;
+display: block;
+left: 2px;
+margin-top:-45px;
+border-left:none;
+border-bottom:none;
+border-top-right-radius:40px;
+@media (max-width:1068px){
+    border-top-right-radius:15px;
+}
 @media (max-width:375px){
-
+    border-top-right-radius:20px;
 }
 `
 export const RoadMapLogoboxes=styled.div`
@@ -50,7 +63,7 @@ max-width: 150px;
 @media(max-width:375px){
     max-width:100px;
     max-height: 100px;
-    margin-top: -150px;
+    margin-top: -180px;
     right: 40px;
 }
 `
@@ -104,7 +117,7 @@ width: fit-content;
 
 `
 export const RoadMapItemBoxOne=styled.div`
-border: 3px solid gray;
+border: 2px solid gray;
 border-right:none;
 max-width: 1300px;
 border-top:none;
@@ -112,16 +125,19 @@ max-height:750px;
 border-bottom-left-radius:50px;
 width: 100%;
 @media(max-width: 1068px){
-  max-width: 722px;
-
+border-bottom-left-radius:30px;
+ max-width: 722px;
 }
 @media(max-width: 768px){
-  max-width: 444px;
+border-bottom-left-radius:20px;
+max-width: 444px;
 
 }
 @media(max-width: 375px){
     border-bottom-left-radius:20px;
     max-width: 191px;
+    height: 300px;
+
 
 
 }
@@ -129,7 +145,7 @@ width: 100%;
 `
 export const RoadMapItemBoxTwo=styled.div`
 
-border: 3px solid gray;
+border: 2px solid gray;
 height: 350px;
 max-width: 1300px;
 margin-left: 56px;
@@ -137,20 +153,24 @@ border-bottom-right-radius: 50px;
 border-top-right-radius: 50px;
 border-left: none;
 width: 100%;
-margin-top: -3px;
+margin-top: -2px;
 @media(max-width: 1068px){
   max-width: 722px;
+  border-bottom-right-radius: 30px;
+border-top-right-radius: 30px;
 
 }
 @media(max-width: 768px){
   max-width: 444px;
   max-height: 255px;
+  border-bottom-right-radius: 20px;
+border-top-right-radius: 20px;
 
 }
 
 @media(max-width: 375px){
-    height: 140px;
-    max-width: 191px;
+    height: 200px;
+    max-width: 160px;
 
     border-bottom-right-radius: 20px;
 border-top-right-radius: 20px;
@@ -161,26 +181,29 @@ border-top-right-radius: 20px;
 export const RoadMapItemBoxThree=styled.div`
 border-bottom-left-radius:50px;
 border-top-left-radius:50px;
-margin-top: -3px;
+margin-top: -2px;
 
 max-width: 1300px;
-border: 3px solid gray;
+border: 2px solid gray;
 height: 350px;
 width: 100%;
 border-right:none;
 @media(max-width: 1068px){
-  max-width: 722px;
+border-bottom-left-radius:30px;
+border-top-left-radius:30px; 
+max-width: 722px;
 
 }
 @media(max-width: 768px){
+border-bottom-left-radius:20px;
+border-top-left-radius:20px; 
   max-width: 444px;
   height: 255px;
 
 }
 @media(max-width: 375px){
-    height: 140px;
+    height: 200px;
     max-width: 191px;
-
     border-bottom-left-radius:20px;
 border-top-left-radius:20px;
 }
@@ -215,7 +238,7 @@ flex-direction: row;
     width: 120px;
     height: 100px;
     left:-60px;
-    top: -30px;
+    top: 120px;
     border-radius: 30px;
 
 }
@@ -248,7 +271,7 @@ flex-wrap: nowrap;
     width: 100px;
     height: 80px;
     left:50px;
-    top: 30px;
+    top: 60px;
     border-radius:15px;
 
 }
@@ -278,7 +301,7 @@ background-color: #15232A;
     width: 100px;
     height: 80px;
     left: -50px;
-    top:30px;
+    top:60px;
     border-radius: 15px;
 }
 
@@ -286,16 +309,23 @@ background-color: #15232A;
 export const RoadMapItemTitleBox=styled.div`
 display: block;
 position: relative;
-top: 80px;
-
+top: 30px;
+@media(max-width: 1068px){
+top:10px ;
+}
 @media(max-width: 375px){
-    height:130px;
+top:40px ;
 }
 
 `
 export const RoadMapTitle=styled.h1`
 font-size: 90px;
 margin-left: 40px;
+display:block;
+position: relative;
+color: white;
+font-weight:500;
+font-family: 'Outfit', sans-serif;
 
 @media (max-width:768px) {
     font-size: 75px;
@@ -303,7 +333,8 @@ margin-left: 40px;
 @media(max-width: 375px){
     margin-left: 20px;
    font-size: 35px;
-   
+   top: -50px;
+
 }
 
 `
@@ -311,14 +342,15 @@ export const RoadMapParaOne=styled.p`
 margin-top: 20px;
 margin-left: 40px;
 font-size:20px;
-font-weight: bold;
+font-weight:400;
+font-family: 'Outfit', sans-serif;
 @media (max-width:768px) {
     font-size:15px;
 }
 @media(max-width: 375px){
-    font-size: 15px;
-    margin-left: 5px;
-    display: none;
+    font-size: 12px;
+    margin-left: 20px;
+    margin-top:-40px;
 }
 `
 export const RoadMapItemTitleBoxTwo=styled.div`
@@ -341,12 +373,17 @@ left: 200px;
     max-width: 240px;
 }
 @media(max-width: 375px){
-    display: none;
+    top: 10px;
+    left:70px;
+    max-width:150px;
 }
 `
 export const RoadMapParaTwo=styled.p`
-font-size: 22px;
+font-size: 20px;
 line-height: 28px;
+font-weight:400;
+font-family: 'Outfit', sans-serif;
+color: gray;
 @media (max-width:1068px){
     font-size:18px;
 }
@@ -354,13 +391,16 @@ line-height: 28px;
     font-size: 12px;
 }
 @media (max-width:375px) {
-    display: none;
+    font-size:10px;
+    line-height:12px
 }
 
 `
 export const RoadMapTitleNumber=styled.h1`
 font-size: 85px;
 font-family: sans-serif;
+font-weight:500;
+font-family: 'Outfit', sans-serif;
 @media (max-width:1068px){
     font-size: 45px;
 }
@@ -373,13 +413,19 @@ font-family: sans-serif;
 }
 `
 export const RoadMapQ1=styled.h1`
+font-family: sans-serif;
+font-weight:500;
 font-size: 55px;
-color:blue;
+color:#15C4C6;
 display: block;
 position: relative;
 top: -5px;
 @media (max-width:1068px){
     font-size: 40px;
+}
+@media (max-width:375px){
+    font-size: 25px;
+    margin-top:5px;
 }
 `
 
@@ -402,7 +448,10 @@ position:relative;
     top: -80px;
 }
 @media(max-width: 375px){
-    display: none;
+    top: -40px;
+    left: 60px;
+    max-width: 150px;
+
 }
 `
 export const RoadMapItemTitleBoxThree=styled.div`
@@ -426,7 +475,9 @@ text-align: right;
     max-width: 240px;
 }
 @media(max-width: 375px){
-    display: none;
+    top:-40px;
+    left: -60px;
+    max-width:150px;
 }
 
 `
@@ -448,6 +499,8 @@ border-radius: 100px;
     border: 4px solid #64D1DE;
     width: 70px;
     top:15px;
+    max-width:180px;
+
 }
 
 `

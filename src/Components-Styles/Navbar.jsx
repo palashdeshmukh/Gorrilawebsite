@@ -45,47 +45,52 @@ top: 5px;
 @media(max-width: 375px){
 display: flex;
 justify-content:space-between;
-border: 1px solid white;
 top:0px;
 left: 0px;
 width: 100%;
-
-   
+z-index:1;
+background-color:Transparent ;
+ 
     
 }
 `
 export const NavigationContainer=styled.div`
 width: 100%;
-max-width: 350px;
 height: 85px;
 @media (max-width:375px){
     max-width: 100%;
-    height: auto;
+    height: 600px;
     text-align: center;
-    background-color:rgba(249, 246, 247, 1);
-
-
+    background-color:rgba(0, 0,0, 1);
+    display: none;
 }
 `
 export const ClickBar=styled.i`
 color: white;
 `
 export const CommunityConnectContainer=styled.div`
-display: flex;
+display: block;
 position: relative;
 right: 45px;
 @media (max-width:375px){
+    right: 0px;
     display: flex;
-    justify-content: center;
+    justify-content:center;
+    border: 1px solid white;
     width: 100%;
-    right: 0;
-    height: 100px;
-    //background-color:rgba(249, 246, 247, 1);
-
+    padding:20px 0px 20px 0px;
+    display: none;
 }
-
+`
+export const BarLine =styled.div`
+display: none;
+@media(max-width:375px){
+    display: block;
+}
 `
 export const ItemsNavigation =styled.li`
+font-family: 'Outfit', sans-serif;
+font-weight:500;
 text-decoration:none;
 list-style: none;
 width: 100%;
@@ -102,7 +107,6 @@ export const ItemNavigationContainer=styled.ul`
 display: flex;
 justify-content:center;
 width: 100%;
-max-height: 85px;
 line-height: 85px;
 @media (width:375px){
    max-height: 200px;
@@ -118,12 +122,15 @@ export const ItemCommunityConnectCotainer=styled.ul`
 border: 1px solid gray;
 display: flex;
 justify-content: center;
+height: 100%;
 width: 100%;
-max-width: 150px;
-max-height: 85px;
+max-width: 180px;
+max-height: 100px;
 border-radius: 50px;
 @media (max-width:375px){
     background-color: black;
+    max-width:135px;
+
 
 }
 `
@@ -138,6 +145,9 @@ border-radius: 50px;
 &:hover{
     background-color: #5865F2;
 }
+@media (max-width:375px){
+    top: 0px;
+}
 `
 export const ItemCommunityConnect1=styled.li`
 display: block;
@@ -149,6 +159,9 @@ width: 65px;
 border-radius: 50px;
 &:hover{
     background-color:#00acee;
+}
+@media (max-width:375px){
+    top: 0px;
 }
 `
 export const MainLogoImage =styled.img`
