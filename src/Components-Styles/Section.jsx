@@ -68,10 +68,10 @@ max-height: 80px;
 padding: 0;
 }
 @media (max-width:375px){
-    margin-top:-230px;
-margin-left:20px;
-    max-width: 130px;
-max-height: 50px;
+    margin-top:-205px;
+margin-left:30px;
+    max-width: 110px;
+max-height: 45px;
 padding: 0;
 }
 `
@@ -101,10 +101,10 @@ padding: 0;
 
 }
 @media (max-width:375px){
-    top: -275px;
-    right:20px ;
-    max-width: 130px;
-max-height: 50px;
+    top: -245px;
+    right:30px ;
+    max-width: 110px;
+max-height: 45px;
 padding:0;
 }
 
@@ -132,10 +132,10 @@ max-height: 80px;
 padding: 0;
 }
 @media (max-width:375px){
-    margin-top:90px;
-margin-left:-20px;
-    max-width: 130px;
-max-height: 50px;
+    margin-top:100px;
+margin-left:-15px;
+    max-width: 110px;
+max-height: 45px;
 padding:1px;
 }
 `
@@ -163,10 +163,10 @@ max-height: 80px;
 padding: 0px;
 }
 @media (max-width:375px){
-    margin-top:50px;
-    right: 32px;
-    max-width: 100px;
-max-height: 50px;
+    margin-top:60px;
+    right: 55px;
+    max-width: 80px;
+max-height: 45px;
 padding: 0;
 }
 `
@@ -186,7 +186,7 @@ font-family: 'Outfit', sans-serif;
     max-height:550px;
 }
 @media(max-width: 375px){
-    max-height: 330px;
+    max-height: 300px;
 }
 `
 export const DivtextContainer=styled.div`
@@ -331,7 +331,7 @@ max-height: 200px;
 }
 @media(max-width:375px){
     margin-left: 160px;
-    margin-top: -90px;
+    margin-top: -115px;
     max-width: 100px;
     height:100px;
 }
@@ -397,8 +397,8 @@ line-height: 35px;
     font-size: 15px;
 }
 @media (max-width:375px){
-    line-height: 15px;
-    font-size: 10px;
+    line-height: 12px;
+    font-size: 7px;
 }
 
 `
