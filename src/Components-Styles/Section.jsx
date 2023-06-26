@@ -1,6 +1,4 @@
 import styled from "styled-components";
-import { ReactDOM } from "react";
-
 export const SectionMain=styled.section`
 display: block;
 margin-top: 105px;

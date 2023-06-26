@@ -1,7 +1,6 @@
 import React from "react";
 import Images from "../../Images/index";
-import styled from "styled-components";
-import {SectionWrapper,SectionMainContainer,SectionMain,MoneyDiv,SelectBox,InputFirst,ArrowImg,DivtextContainer1,DivtextContainer2,DivtextContainer3,DivtextContainer4,Circles,SectionItemContainer2,Circle,OptionInput,DivtextContainer,SectionParaTwo,SearchInput,SearchItem,SectionItemContainer,Moneylog,GorilaMov,TitleHead,ParaHead,SearchContainer,SearchBarInnerContainer1,SearchBarInnerContainer2, SearchBar} from "../../Components-Styles/Section";
+import {SectionWrapper,SectionMainContainer,SectionMain,MoneyDiv,SelectBox,InputFirst,ArrowImg,DivtextContainer1,DivtextContainer2,DivtextContainer3,DivtextContainer4,Circles,SectionItemContainer2,SectionParaTwo,SearchItem,SectionItemContainer,Moneylog,GorilaMov,TitleHead,ParaHead,SearchContainer} from "../../Components-Styles/Section";
 const Slider=()=>{
     return(
         <>

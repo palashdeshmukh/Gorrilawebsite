@@ -1,6 +1,5 @@
 import React from "react";
 import HomePage from "./Pages/Home";
-import ReactDOM from "react-dom/client";
 import RoadMapPage from "./Pages/RoadMap";
 import ContactPage from "./Pages/Contact";
 import BlogPage from "./Pages/Blog";
@@ -11,7 +10,6 @@ import { BrowserRouter,Routes,Route } from "react-router-dom";
 const App=()=>{
 return(
     <React.Fragment>
-   
     <BrowserRouter>
     <Navbar/>
         <Routes>

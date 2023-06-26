@@ -1,5 +1,5 @@
 import React from "react";
-import {FooterMainWrapper,FooterWrapper,TableBlock,TableData,InternalBlock2,MydiscrodCircle,JoinDiscord,TableHead,TableRow,TableFootContainer,FooterContainer,CopywriteInfo,InternalBlock,FooterItemContainerOne,FooterItemContainerTwo} from "../../Components-Styles/Footer";
+import {FooterMainWrapper,FooterWrapper,TableBlock,TableData,InternalBlock2,TableHead,TableRow,TableFootContainer,FooterContainer,CopywriteInfo,InternalBlock,FooterItemContainerOne,FooterItemContainerTwo} from "../../Components-Styles/Footer";
 const Footer=()=>{
     return(
         <>
