@@ -1,7 +1,7 @@
 import React from "react";
 import Images from "../../Images";
 import { Link } from "react-router-dom";
-import { NavbarWrapper,LogoContainer,MainNavbarDiv,MainLogoImage ,NavigationContainer,CommunityConnectContainer,ItemsNavigation,BarLine,ItemNavigationContainer,ItemCommunityConnectCotainer,ItemCommunityConnect,ItemCommunityConnect1,myImage,discord,twitter} from "../../Components-Styles/Navbar";
+import { NavbarWrapper,LogoContainer,MainNavbarDiv,MainLogoImage ,NavigationContainer,CommunityConnectContainer,ItemsNavigation,BarLine,ItemNavigationContainer,ItemCommunityConnectCotainer,ItemCommunityConnect,ItemCommunityConnect1,discord,twitter} from "../../Components-Styles/Navbar";
 const myLink ={
     textDecoration: 'none',
 }
